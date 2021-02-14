@@ -189,6 +189,15 @@ def calculateSwitchFrequency(name, switchArray):
             f.write(f"{temp},{wordCounter}\n")
     f.close()
 
+
+def outputWrite(name, totalWord, counter, wordPercentage, totalPercentage):
+
+    with open(f"files/outputFiles/{file}.txt", "a+", encoding="utf8") as outputFiles:
+        outputFiles.write(f"{name} {totalWord} kelimede, farklı dilde {counter} tane  kelime kullandı. (%{wordPercentage})\n")
+        outputFiles.write(f"{name} katılımcısının konuşmadaki katkısı %{totalPercentage}\n\n")
+
+
+
 if __name__ == '__main__':
     number = int(input("Kişi sayısını giriniz: "))
 
@@ -299,13 +308,25 @@ if __name__ == '__main__':
 
     # Toplam konuşma katkısı sayısı
     print(f"{name1} katılımcısının konuşmadaki katkısı %{round(len(person1)*100/(len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2)}")
+    outputWrite(name1, len(person1), person1Counter, round(person1Counter * 100 / len(person1), 2),
+                round(len(person1) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)),
+                      2))
     print(f"{name2} katılımcısının konuşmadaki katkısı %{round(len(person2) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2)}")
+    outputWrite(name2, len(person2), person2Counter, round(person2Counter * 100 / len(person2), 2),
+                round(len(person2) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)),
+                      2))
     if number >= 3:
         print(f"{name3} katılımcısının konuşmadaki katkısı %{round(len(person3) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2)}")
+        outputWrite(name2, len(person3), person3Counter, round(person3Counter * 100 / len(person3), 2), round(
+            len(person3) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2))
     if number >= 4:
         print(f"{name4} katılımcısının konuşmadaki katkısı %{round(len(person4) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2)}")
+        outputWrite(name4, len(person4), person4Counter, round(person4Counter * 100 / len(person4), 2), round(
+            len(person4) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2))
     if number >= 5:
         print(f"{name5} katılımcısının konuşmadaki katkısı %{round(len(person5) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2)}")
+        outputWrite(name5, len(person5), person5Counter, round(person5Counter * 100 / len(person5), 2), round(
+            len(person5) * 100 / (len(person1) + len(person2) + len(person3) + len(person4) + len(person5)), 2))
 
     calculateFrequency()
     calculateSwitchFrequency(name1, switch1)
