@@ -2101,7 +2101,6 @@ alluvium
 alluviums
 ally
 allying
-alma
 almanac
 almanacs
 almaria
@@ -2724,8 +2723,6 @@ andiron
 andirons
 andorra
 andover
-andrea
-andrew
 andrews
 androgen
 androgens
@@ -2735,7 +2732,6 @@ android
 androids
 andromeda
 ands
-andy
 anecdotal
 anecdotally
 anecdote
@@ -2882,7 +2878,6 @@ anisettes
 anisotropy
 anita
 anjou
-ankara
 ankle
 anklebone
 anklebones
@@ -3239,10 +3234,8 @@ antlered
 antlers
 antoine
 antoinette
-anton
 antonio
 antonomasia
-antony
 antonym
 antonymous
 antonyms
@@ -32875,7 +32868,6 @@ grinned
 grinning
 grins
 grinstead
-grip
 gripe
 griped
 gripes
@@ -36428,7 +36420,6 @@ hysterotomies
 hysterotomy
 hythe
 hyundai
-i
 iain
 iamb
 iambic
@@ -40752,7 +40743,6 @@ juxtaposes
 juxtaposing
 juxtaposition
 juxtapositions
-k
 ka
 kabob
 kabobs
@@ -41447,8 +41437,6 @@ kymographs
 kyoto
 kyth
 kyushu
-l
-la
 lab
 label
 labeled
@@ -44241,7 +44229,6 @@ maids
 maidservant
 maidservants
 maidstone
-mail
 mailable
 mailbag
 mailbags
@@ -46020,7 +46007,6 @@ metacarpals
 metacarpus
 metachronism
 metafiction
-metal
 metalled
 metallic
 metalliferous
@@ -49523,7 +49509,6 @@ nixon
 nne
 nnw
 no
-noah
 nob
 nobble
 nobbled
@@ -51100,7 +51085,6 @@ organization
 organizational
 organizationally
 organizations
-organize
 organized
 organizer
 organizers
@@ -53940,7 +53924,6 @@ peppiness
 pepping
 peppy
 peps
-pepsi
 pepsin
 pepsins
 peptic
@@ -57324,7 +57307,6 @@ priests
 prig
 priggish
 prigs
-prim
 prima
 primacies
 primacy
@@ -63159,7 +63141,6 @@ riceland
 ricer
 ricers
 rich
-richard
 richards
 richardson
 riche
@@ -64694,7 +64675,6 @@ sarabands
 saracen
 saracens
 saragossa
-sarah
 sarajevo
 saran
 sarcasm
@@ -64740,8 +64720,6 @@ sassiest
 sassiness
 sassing
 sassy
-sat
-satan
 satanic
 satanical
 satanically
@@ -73829,7 +73807,6 @@ tastily
 tastiness
 tasting
 tasty
-tat
 tate
 tatler
 tats
@@ -75472,7 +75449,6 @@ toccatas
 tocsin
 tocsins
 today
-todd
 toddies
 toddle
 toddled
@@ -77351,7 +77327,6 @@ tuxedoed
 tuxedoes
 tuxedos
 tuxes
-tv
 twaddle
 twain
 twang
@@ -81025,7 +81000,6 @@ vicuna
 vicunas
 vid
 vide
-video
 videocassette
 videocassettes
 videodisc
@@ -83640,7 +83614,6 @@ yankee
 yankees
 yanking
 yanks
-yap
 yapped
 yapping
 yaps
@@ -83753,7 +83726,6 @@ yippee
 yipping
 yips
 ymca
-yo
 yob
 yobs
 yodel
