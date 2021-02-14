@@ -2554,7 +2554,6 @@ amyl
 amylase
 amylases
 amylopsin
-an
 anabaptism
 anabaptist
 anabaptists
@@ -5094,10 +5093,6 @@ aztec
 azure
 azurite
 azurites
-b
-ba
-baa
-baba
 babas
 babble
 babbled
@@ -5422,7 +5417,6 @@ bali
 balinese
 baling
 balk
-balkan
 balkanisation
 balkanise
 balkanised
@@ -6114,8 +6108,6 @@ bazaar
 bazaars
 bazooka
 bazookas
-bbc
-bc
 beach
 beachcomber
 beachcombers
@@ -6288,8 +6280,6 @@ bedeck
 bedecked
 bedecking
 bedecks
-bedel
-bedels
 bedevil
 bedeviled
 bedeviling
@@ -6594,7 +6584,6 @@ bellflower
 bellflowers
 bellhop
 bellhops
-belli
 bellicose
 bellicosely
 bellicosity
@@ -19268,7 +19257,6 @@ deletions
 delft
 delftware
 delhi
-deli
 deliberate
 deliberated
 deliberately
@@ -25997,7 +25985,6 @@ estrogen
 estrous
 estuaries
 estuary
-et
 eta
 etagere
 etageres
@@ -29838,7 +29825,6 @@ fort
 forte
 fortes
 fortescue
-forth
 forthcoming
 forthright
 forthrightly
@@ -35465,7 +35451,6 @@ honeymoons
 honeys
 honeysuckle
 honeywell
-hong
 honiara
 honing
 honiton
@@ -40232,7 +40217,6 @@ jeroboam
 jerome
 jerries
 jerry
-jersey
 jerseys
 jerusalem
 jesse
@@ -40773,7 +40757,6 @@ ka
 kabob
 kabobs
 kabuki
-kabul
 kafka
 kafkaesque
 kaftan
@@ -41391,7 +41374,6 @@ kohlrabi
 kohlrabis
 kola
 kolas
-kong
 kook
 kookaburra
 kookaburras
@@ -46145,8 +46127,6 @@ metonyms
 metonymy
 metope
 metopes
-metre
-metres
 metric
 metrical
 metrically
@@ -49286,7 +49266,6 @@ neville
 nevis
 nevoid
 nevus
-new
 newark
 newbold
 newborn
@@ -49702,13 +49681,10 @@ noosed
 nooses
 noosing
 nor
-nora
 norbert
 nordic
 norfolk
-norm
 norma
-normal
 normalcy
 normalisation
 normalise
@@ -50785,7 +50761,6 @@ omnivores
 omnivorous
 omnivorously
 omsk
-on
 onanism
 onboard
 once
@@ -52967,7 +52942,6 @@ parching
 parchment
 parchments
 pard
-pardon
 pardonable
 pardonably
 pardoned
@@ -57527,7 +57501,6 @@ probed
 probes
 probing
 probity
-problem
 problematic
 problematical
 problematically
@@ -63399,7 +63372,6 @@ risibility
 risible
 risibly
 rising
-risk
 risked
 riskier
 riskiest
@@ -70585,7 +70557,6 @@ standpoints
 stands
 standstill
 standstills
-stanford
 stanhope
 stank
 stanley
@@ -74533,7 +74504,6 @@ tessellates
 tessellating
 tessellation
 tessera
-test
 testability
 testable
 testacy
@@ -75593,7 +75563,6 @@ tolls
 tolpuddle
 tolstoy
 toluene
-tom
 tomahawk
 tomahawks
 tomalley
@@ -75622,7 +75591,6 @@ tompkins
 toms
 tomtit
 tomtits
-ton
 tonal
 tonalities
 tonality
@@ -80435,7 +80403,6 @@ vamps
 van
 vanadium
 vance
-vancouver
 vandal
 vandalise
 vandalised
@@ -83819,7 +83786,6 @@ yom
 yon
 yonder
 yore
-york
 yorker
 yorkers
 yorkshire

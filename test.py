@@ -168,9 +168,8 @@ def calculateFrequency():
 
 
 def calculateSwitchFrequency(name, switchArray):
-    print(switchArray)
-    with open(f"files/personFiles/{name}.csv", "w+", encoding="utf8") as file:
-        file.write("Word,Frequency\n")
+    with open(f"files/personFiles/{name}.csv", "w+", encoding="utf8") as f:
+        f.write("Word,Frequency\n")
 
         switch1.sort()
 
@@ -187,11 +186,17 @@ def calculateSwitchFrequency(name, switchArray):
                 if s == temp:
                     wordCounter += 1
 
-            file.write(f"{temp},{wordCounter}\n")
-    file.close()
+            f.write(f"{temp},{wordCounter}\n")
+    f.close()
 
 if __name__ == '__main__':
     number = int(input("Kişi sayısını giriniz: "))
+
+    name1Identifier = ""
+    name2Identifier = ""
+    name3Identifier = ""
+    name4Identifier = ""
+    name5Identifier = ""
 
     name1 = input("Birinci kişinin adını giriniz: ")
     name1Identifier = input("Birinci kişinin tanımını giriniz: ")
@@ -305,6 +310,9 @@ if __name__ == '__main__':
     calculateFrequency()
     calculateSwitchFrequency(name1, switch1)
     calculateSwitchFrequency(name2, switch2)
-    calculateSwitchFrequency(name3, switch3)
-    calculateSwitchFrequency(name4, switch4)
-    calculateSwitchFrequency(name5, switch5)
+    if number >= 3:
+        calculateSwitchFrequency(name3, switch3)
+    if number >= 4:
+        calculateSwitchFrequency(name4, switch4)
+    if number >= 5:
+        calculateSwitchFrequency(name5, switch5)
