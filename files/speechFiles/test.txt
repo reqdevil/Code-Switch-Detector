@@ -1,0 +1,5 @@
+s used 112 different language words in 1502 (7.46)
+d used 10 different language words in 284 (3.52)
+
+113 1503
+10 285
