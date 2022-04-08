@@ -44,6 +44,7 @@ def lineSeparation(line):
 
         newLine.append(li.lower())
 
+
     for li in newLine:
         if not li:
             newLine.remove(li)
@@ -89,44 +90,12 @@ def wordDetection(words, wordCounter=0):
         else:
             originalWords.append(word)
 
-        # found = False
-        #
-        # if word in englishWords:
-        #     switchedWords.append(word)
-        #     wordCounter += 1
-        # elif word in turkishWords:
-        #     originalWords.append(word)
-        # else:
-        #     for line in tfl:
-        #         if word == line.replace("\n", ""):
-        #             found = True
-        #
-        #     if not found:
-        #         found = False
-        #         for char in word:
-        #             if char in specialCharacters:
-        #                 found = True
-        #
-        #         if found:
-        #             tf.write(f"{word}\n")
-        #         else:
-        #             add = input(f"{word} is a new type of word. Is it English(E/e) or Turkish(T/t): ")
-        #
-        #             if add == "T" or add == "t":
-        #                 tf.write(f"{word}\n")
-        #                 originalWords.append(word)
-        #             elif add == "E" or add == "e":
-        #                 ef.write(f"{word}\n")
-        #                 switchedWords.append(word)
-        #             else:
-        #                 print("Wrong input entered. Word will not be entered to a list.")
-
     return wordCounter, personSwitch
 
 
 def calculateFrequency():
 
-    with open("files/excelFiles/switchedWords.csv", "r+", encoding="utf8") as swf:
+    with open(f"files/excelFiles/{file}SwitchedWords.csv", "w+", encoding="utf8") as swf:
         swf.write("Word,Frequency")
 
         switchedWords.sort()
